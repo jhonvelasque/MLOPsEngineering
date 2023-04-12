@@ -1,9 +1,12 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse ,JSONResponse
 import pandas as pd 
-app = FastAPI()
+
+
 #cargando los datos 
 movie_df = pd.read_csv("data/data_procesada/movie.csv")
+app = FastAPI()
+
 
 @app.get('/')
 def home():
