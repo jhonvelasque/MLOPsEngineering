@@ -4,7 +4,7 @@ ipykernel==6.16.2
 jiwer==2.5.1
 moviepy==1.0.3
 openai-whisper==20230117
-pandas==2.0.0
+pandas==1.3.5
 pip-chill==1.0.1
 psycopg2-binary==2.9.6
 pyjwt==2.6.0
