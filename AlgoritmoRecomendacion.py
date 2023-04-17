@@ -49,6 +49,5 @@ def get_recomendation(title='toy story'):
 
 if __name__=="__main__":
     title=input('ingrese el nombre de la pelicula: ') # toy story
-    print('*'*50+'\n','la pelicula que le recomendamos son \n')
     a=get_recomendation(title)
     print(a)
