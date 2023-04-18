@@ -49,7 +49,7 @@ async def get_score_count(platform:str, scored:int, year:int):
     }
 
 @app.get('/get_count_platform/{platform}',tags=["movies"])
-#funcion que nos trae la cantidad de peluclas segun la plataforma
+#funcion que nos trae la cantidad de pelicuclas segun la plataforma
 async def get_count_platform(platform:str):
     df=movie_df[(movie_df["plataforma"]==platform)&(movie_df["duration_unit"]=='min')]
     count= df.shape[0]
