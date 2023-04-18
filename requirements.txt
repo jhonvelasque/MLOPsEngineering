@@ -1,11 +1,11 @@
 chardet
-fastapi=
-ipykernel=
+fastapi
+ipykernel
 jiwer
 moviepy
 pandas
 pyjwt
-uvicorn=
+uvicorn
 scikit-learn
 seaborn
 pip-chill 
